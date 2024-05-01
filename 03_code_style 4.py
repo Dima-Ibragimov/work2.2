@@ -97,14 +97,14 @@ else:
 # названия переменных
 
 number_pet = 34
-if numer_pet < 10:
+if number_pet < 10:
     print('I need more space for my pets!')
 
-my_pet = ['cat', 'wolf', 'ostrich']
+my_pet = ['cat', 'dog', 'ostrich']
 if 'lion' in my_pet:
     print('Wow!')
 
-my_pet = ['cat', 'wolf', 'ostrich']
+my_pet = ['cat', 'dog', 'ostrich']
 # но такой стиль используется для названий классов
 
 
@@ -140,8 +140,8 @@ if r > 0:
 
 # автоматическое переименование в PyCharm и подсказки - вам не нужно набирать длинные названия переменных
 
-ss = ['cat', 'wolf', 'ostrich']
-if 'lion' in ss:
+my_pet = ['cat', 'dog', 'ostrich']
+if 'lion' in my_pet:
     print('Wow!')
 # В каждой уважающей себя компании есть style guide (стайл-гайд) - руководство по стилю написания кода.
 # Практически все они основываются на PEP8, с небольшими исключениями, принятыми в этой команде.
