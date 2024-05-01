@@ -96,15 +96,15 @@ else:
 
 # названия переменных
 
-count_of_my_pets = 34
-if count_of_my_pets < 10:
+number_pet = 34
+if numer_pet < 10:
     print('I need more space for my pets!')
 
-my_favorite_pets_and_bird = ['cat', 'wolf', 'ostrich']
-if 'lion' in my_favorite_pets_and_bird:
+my_pet = ['cat', 'wolf', 'ostrich']
+if 'lion' in my_pet:
     print('Wow!')
 
-MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
+my_pet = ['cat', 'wolf', 'ostrich']
 # но такой стиль используется для названий классов
 
 
@@ -143,8 +143,6 @@ if r > 0:
 ss = ['cat', 'wolf', 'ostrich']
 if 'lion' in ss:
     print('Wow!')
-
-input()
 # В каждой уважающей себя компании есть style guide (стайл-гайд) - руководство по стилю написания кода.
 # Практически все они основываются на PEP8, с небольшими исключениями, принятыми в этой команде.
 # Как пример стайл-гайда небольшой компании рекомендую почитать
