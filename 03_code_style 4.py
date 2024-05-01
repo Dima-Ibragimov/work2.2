@@ -96,15 +96,15 @@ else:
 
 # названия переменных
 
-number_pet = 34
-if number_pet < 10:
+number_pets = 34
+if number_pets < 10:
     print('I need more space for my pets!')
 
-my_pet = ['cat', 'dog', 'ostrich']
+my_pets = ['cat', 'dog', 'ostrich']
 if 'lion' in my_pet:
     print('Wow!')
 
-my_pet = ['cat', 'dog', 'ostrich']
+my_pets = ['cat', 'dog', 'ostrich']
 # но такой стиль используется для названий классов
 
 
@@ -140,7 +140,7 @@ if r > 0:
 
 # автоматическое переименование в PyCharm и подсказки - вам не нужно набирать длинные названия переменных
 
-my_pet = ['cat', 'dog', 'ostrich']
+my_pets = ['cat', 'dog', 'ostrich']
 if 'lion' in my_pet:
     print('Wow!')
 # В каждой уважающей себя компании есть style guide (стайл-гайд) - руководство по стилю написания кода.
